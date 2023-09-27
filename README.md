@@ -51,6 +51,8 @@ You may also directly download the motion module checkpoints from [Google Drive]
 ### Prepare Personalize T2I
 Here we provide inference configs for 6 demo T2I on CivitAI.
 You may run the following bash scripts to download these checkpoints.
+❗Note: the name of the LoRA files being downloaded may not match what's specified in the yaml configs under "Inference" section. You will need to fix the file names manually. 
+(TODO - fix the scripts so LoRA names stay the same.)
 ```
 bash download_bashscripts/1-ToonYou.sh
 bash download_bashscripts/2-Lyriel.sh
